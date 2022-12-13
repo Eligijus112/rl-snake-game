@@ -1,7 +1,19 @@
-# Reinforcement learning based snake game 
+# Reinforcement learning 
 
-# Chapters
+The primary theory is based on the series: https://www.coursera.org/specializations/reinforcement-learning 
 
-## Reinforcement learning basics 
+# Setting up a virtual environment 
 
-The basic definitions along with some examples are presented in the `chapter-1-rl-basics.ipynb` file. 
+```
+python3 -m venv rl-env
+source rl-env/bin/activate
+pip install -r requirements.txt
+```
+
+# Chapters 
+
+The chapters are in notebooks. The first chapter is in the notebook 
+
+```
+chapter-1-rl-basics.ipynb
+```

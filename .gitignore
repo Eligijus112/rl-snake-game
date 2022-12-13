@@ -1,2 +1,5 @@
 # Virtual env 
-snake_env
+rl-env/
+
+# Checkpoints
+*_checkpoints/
