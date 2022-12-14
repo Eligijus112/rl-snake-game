@@ -12,8 +12,16 @@ pip install -r requirements.txt
 
 # Chapters 
 
-The chapters are in notebooks. The first chapter is in the notebook 
+The chapters are in notebooks.
+
+## Chapter 1: RL basics
 
 ```
 chapter-1-rl-basics.ipynb
+```
+
+## Chapter 2: k armed bandits
+
+```
+chapter-2-k-armed-bandits.ipynb
 ```
