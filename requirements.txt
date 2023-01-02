@@ -3,3 +3,4 @@ numpy==1.23.5
 matplotlib==3.6.2
 seaborn==0.12.1
 pandas==1.5.2
+tqdm==4.64.1
