@@ -3,3 +3,6 @@ rl-env/
 
 # Checkpoints
 *_checkpoints/
+
+# Any output directory 
+output/
