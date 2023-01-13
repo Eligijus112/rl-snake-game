@@ -278,7 +278,10 @@ class GridWorld:
                 if delta < epsilon: 
                     iterate = False
                     break
-
+            
+        # Updating the policy
+        self.update_policy()
+        
         return None
 
     def update_policy(self): 
@@ -408,3 +411,19 @@ class GridWorld:
             plt.close()
         else:
             plt.show()
+
+if __name__ == '__main__': 
+    # Making a 6 by 6 grid 
+    grid = GridWorld(
+        n=6, 
+        goal_reward=10,
+        step_reward=-1,
+        gamma=0.9
+        )
+
+    # Adding three random goals 
+    for _ in range(3):
+        grid.add_random_goal()
+
+    # Ploting how the grid looks like
+    grid.plot_rewards()

@@ -6,3 +6,6 @@ rl-env/
 
 # Any output directory 
 output/
+
+# Pycache 
+__pycache__/
