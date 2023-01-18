@@ -3,3 +3,9 @@ rl-env/
 
 # Checkpoints
 *_checkpoints/
+
+# Any output directory 
+output/
+
+# Pycache 
+__pycache__/
