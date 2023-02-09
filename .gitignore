@@ -9,3 +9,7 @@ output/
 
 # Pycache 
 __pycache__/
+
+# Animation for q learning
+q-learning-walking_paths/
+q-learning-animation/
